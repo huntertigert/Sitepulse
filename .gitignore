@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Build files
+build/
+dist/
+*.spec
