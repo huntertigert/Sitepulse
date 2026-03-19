@@ -36,6 +36,7 @@ Bash
 python link_checker_gui.py
 
 📝 Roadmap
+
 [ ] Multi-threaded crawling for faster performance on large sites.
 
 [ ] Export results to CSV or Excel for client reporting.
