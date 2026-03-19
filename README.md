@@ -1,25 +1,30 @@
-# SitePulse 🌐
+Language: Python 3.x
 
-**SitePulse** is a lightweight macOS application designed to provide real-time monitoring and health insights for your web services directly from your desktop.
+Core Engine: link_checker_gui.py (Custom Crawler Logic)
 
-## 🚀 Overview
-SitePulse bridges the gap between complex enterprise monitoring and simple manual checks. It gives developers and site owners a "live pulse" of their digital assets, ensuring that downtime or performance lag never goes unnoticed.
+Library Dependencies: Uses requests for HTTP communication and BeautifulSoup4 for HTML parsing.
 
-## ✨ Key Features
-* **Real-Time Uptime Tracking:** Monitoring of your URLs with instant status updates.
-* **Latency Metrics:** Visualize response times to identify slow-loading pages before they affect users.
-* **Native macOS Integration:** Built specifically for macOS, featuring a clean interface that feels right at home in your Applications folder.
-* **Persistent Monitoring:** Schedule when SitePulse runs, link it to SLACK via webhook, and let it print reports directly to your inbox.
+GUI Framework: Built with [e.g., Tkinter / PyQt] for a native macOS window experience.
 
-## 🛠️ Technical Stack
-* **Language:** Python 
-* **Framework:** link_checker_gui.py
-* **Communication:** Crawls provided website link
+📥 Installation & Setup
+To run SitePulse from your source code:
 
-## 📥 Installation & Setup
-Since this is a developer build, follow these steps to run it from source:
+Clone the repository:
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/huntertigert/Sitepulse.git](https://github.com/huntertigert/Sitepulse.git)
-   cd Sitepulse
+Bash
+git clone https://github.com/huntertigert/Sitepulse.git
+cd Sitepulse
+Install necessary libraries:
+
+Bash
+pip install requests beautifulsoup4
+Launch the App:
+
+Bash
+python link_checker_gui.py
+📝 Roadmap
+[ ] Multi-threaded crawling for faster performance on large sites.
+
+[ ] Export results to CSV or Excel for client reporting.
+
+[ ] Visual sitemap generation.
