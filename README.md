@@ -42,3 +42,9 @@ python link_checker_gui.py
 [ ] Export results to CSV or Excel for client reporting.
 
 [ ] Visual sitemap generation.
+
+Dashboard
+
+![SitePulse in action](sitepulse-dashboard-showcase.png)
+![SitePulse in action](sitepulse-scanning.png)
+![SitePulse in action](sitepulse-complete.png)
