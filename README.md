@@ -43,8 +43,7 @@ python link_checker_gui.py
 
 [ ] Visual sitemap generation.
 
-Dashboard
 
-![SitePulse in action](sitepulse-dashboard-showcase.png)
-![SitePulse in action](sitepulse-scanning.png)
-![SitePulse in action](sitepulse-complete.png)
+![SitePulse in action](sitepulse-dashboard-show.png)
+![SitePulse in action](sitepulse-working.png)
+![SitePulse in action](sitepulse-completed.png)
