@@ -45,5 +45,3 @@ python link_checker_gui.py
 
 
 ![SitePulse in action](sitepulse-dashboard-show.png)
-![SitePulse in action](sitepulse-working.png)
-![SitePulse in action](sitepulse-completed.png)
